@@ -1,5 +1,5 @@
 # Dreamy Lottery Generator
-This web application was created as part of my journey to learn JavaScript, following the tutorials by Samuraj Kodowania on YouTube. I designed the graphics and added the CSS styles, giving the project a magical and dreamy vibe.
+This web application was created as part of my journey to learn JavaScript, following the tutorials by Samuraj Programowania on YouTube. I designed the graphics and added the CSS styles, giving the project a magical and dreamy vibe.
 
 ## Project Overview
 The Dreamy Lottery Generator is a simple web application that allows users to generate six lucky numbers by clicking the "Generate" button.

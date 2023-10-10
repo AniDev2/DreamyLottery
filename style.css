@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Luckiest+Guy&family=Mooli&family=Quicksand:wght@300&family=Zen+Loop&display=swap");
+
+body {
+  background-image: url(cloud.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: center;
+}
+
+button {
+  display: block;
+  margin: 70px auto 0px auto;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 19px;
+  transition: 0.3s;
+  font-family: "Quicksand", sans-serif;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(56, 56, 56);
+}
+
+div {
+  height: 50px;
+}
+
+p {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  color: rgb(56, 56, 56);
+  margin: 50px auto 40px auto;
+}
+
+.blue-circle {
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f3f2fd;
+  margin: 10px;
+  line-height: 60px;
+  text-align: center;
+  color: #c8bfe7;
+  font-family: "Lobster", cursive;
+  font-size: 28px;
+}
+
+#circles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

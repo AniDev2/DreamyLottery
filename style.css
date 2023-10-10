@@ -58,3 +58,11 @@ p {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 530px) {
+  button {
+    margin: 140px auto 0px auto;
+  }
+}

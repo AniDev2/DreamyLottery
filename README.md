@@ -15,6 +15,6 @@ The Dreamy Lottery Generator is a simple web application that allows users to ge
 3. Click the "Generate" button to get your set of lucky numbers.
 
 ## Live Demo
-You can access the live demo of this project [here](https://anidev2.github.io/DreamyLottery/)).
+You can access the live demo of this project [here](https://anidev2.github.io/DreamyLottery/).
 
 Feel free to explore the project, modify it and provide feedback.

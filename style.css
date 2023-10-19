@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Luckiest+Guy&family=Mooli&family=Quicksand:wght@300&family=Zen+Loop&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300&display=swap');
 
 body {
   background-image: url(cloud.png);
@@ -49,7 +49,7 @@ p {
   line-height: 60px;
   text-align: center;
   color: #c8bfe7;
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', sans-serif;
   font-size: 28px;
 }
 

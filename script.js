@@ -1,21 +1,21 @@
 const result = [];
 const circles = document.getElementById("circles");
 
-function losowanie() {
+function lottery() {
   if (result.length === 6) return;
-  const wyniklosowania = Math.floor(Math.random() * 49 + 1);
+  const drawResult = Math.floor(Math.random() * 49 + 1);
   for (let i = 0; i < result.length; i++) {
-    if (wyniklosowania === result[i]) {
-      return losowanie();
+    if (drawResult === result[i]) {
+      return lottery();
     }
   } 
   const div = document.createElement("div");
-  div.classList.add("blue-circle");
-  div.textContent = wyniklosowania;
+  div.classList.add("num-circle");
+  div.textContent = drawResult;
   circles.appendChild(div);
-  result.push(wyniklosowania);
+  result.push(drawResult);
 }
 
 const button = document.querySelector("button");
 
-button.addEventListener("click", losowanie);
+button.addEventListener("click", lottery);
